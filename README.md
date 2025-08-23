@@ -21,10 +21,6 @@
 We propose Diff-MoE, a novel framework that combines Diffusion Transformers with Mixture-of-Experts to exploit both temporarily adaptability and spatial flexibility.Our design incorporates expert-specific timestep conditioning, allowing each expert to process different spatial tokens while adapting to the generative stage, to dynamically allocate resources based on both the temporal and spatial characteristics of the generative task. Additionally, we propose a globally-aware feature recalibration mechanism that amplifies the representational capacity of expert modules by dynamically adjusting feature contributions based
 on input relevance.
 
-<p align="center">
-  <img src="assets/framework.png">
-</p>
-
 
 ## ⚙️ Dependencies and Installation
 
